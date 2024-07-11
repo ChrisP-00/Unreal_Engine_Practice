@@ -72,3 +72,72 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+# Ignore all binaries and intermediate files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+
+# Ignore user-specific files and settings
+*.suo
+*.user
+*.userossc
+*.userprefs
+*.log
+*.temp
+*.ts
+*.rs
+*.pyc
+*.pyo
+*.h5
+
+# Ignore compiled source files
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.app
+*.ipa
+*.dylib
+*.so
+*.a
+*.swp
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore build folders and other project-specific files
+Build/
+
+# Ignore Unreal Engine specific backup and autosave files
+Backup/
+autosave/
+
+# Ignore UBT makefiles
+*.make
+
+# Ignore Visual Studio Code workspace files
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Ignore Unreal Engine source folders
+Source/ThirdParty/
+
+# Ignore binary assets
+Content/*/*.uasset
+Content/*/*.umap
+
+# 
+# Content/StarterContent/
+# Content/ExampleContent/
+
